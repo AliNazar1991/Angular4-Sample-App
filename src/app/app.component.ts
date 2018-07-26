@@ -6,5 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  post = {
+    title: "Title",
+    isFavorite : true,
+  }
+
+  tweet = {
+    body: '....',
+    likesCount: 10,
+    isLiked: true,
+  }
+
+  
+
+  onClick(){
+    alert("HEJ HEJ HEJ!");
+  }
+
+  onFavoriteChanged(eventArgs){
+    alert("where you coming from? : "+eventArgs);
+  }
 }
+
+
