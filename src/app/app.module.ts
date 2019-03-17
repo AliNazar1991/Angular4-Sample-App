@@ -19,6 +19,7 @@ import { GithubFollowersService } from './github-followers.service';
 import { RouterModule } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
+import { ObservablesComponent } from './observables/observables.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { HomeComponent } from './home/home.component';
     PostsComponent,
     GithubFollowersComponent, 
     NavigationComponent,
-    HomeComponent
+    HomeComponent,
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,
